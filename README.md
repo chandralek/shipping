@@ -28,5 +28,6 @@ Directory -> `/home/shipping`
 4. Copy the service file and start the service.
 
 ```
-# cp /home/shipping/shipping/shipping.service /etc/systemd/system/
+# cp /home/shipping/shipping/shipping.service /etc/systemd/system/shipping.service
+# 
 ```
