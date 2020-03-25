@@ -10,3 +10,10 @@ Shipping service is written in Java, Hence we need to install Java.
 
 2. As per standard process we always run the applications as a normal user.
 
+Create a user 
+
+```
+# useradd shipping
+```
+
+3. 
