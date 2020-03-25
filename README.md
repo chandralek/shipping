@@ -16,4 +16,6 @@ Create a user
 # useradd shipping
 ```
 
-3. 
+3. Clone the repo 
+
+
