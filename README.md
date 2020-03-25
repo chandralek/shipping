@@ -7,3 +7,6 @@ Shipping service is written in Java, Hence we need to install Java.
 ```
 # yum install java -y 
 ```
+
+2. As per standard process we always run the service as a normal user.
+
