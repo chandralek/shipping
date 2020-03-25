@@ -37,7 +37,7 @@ public class Main {
 
     public static void main(String[] args) {
         // Get ENV configuration values
-        CART_URL = String.format("http://%s/shipping/", System.getenv("CART_ENDPOINT") != null ? System.getenv("CART_ENDPOINT") : "cart");
+        CART_URL = String.format("http://%s/shipping/", System.getenv("CART_ENDPOINT") != null ? System.getenv("CART_ENDPOINT") : "localhost");
         JDBC_URL = String.format("jdbc:mysql://%s/cities?useSSL=false&autoReconnect=true", System.getenv("DB_HOST") != null ? System.getenv("DB_HOST") : "mysql");
 
         //
