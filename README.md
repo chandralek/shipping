@@ -18,4 +18,8 @@ Create a user
 
 3. Clone the repo 
 
+Following Settings
 
+User -> `shipping`
+
+Directory -> `/home/shipping`
