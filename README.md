@@ -25,4 +25,8 @@ User -> `shipping`
 Directory -> `/home/shipping`
 
 
-4. 
+4. Copy the service file and start the service.
+
+```
+
+```
