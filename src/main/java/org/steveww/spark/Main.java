@@ -61,7 +61,7 @@ public class Main {
         }
 
         // Spark
-        Spark.port(8080);
+        Spark.port(7005);
 
         Spark.get("/health", (req, res) -> "OK");
 
