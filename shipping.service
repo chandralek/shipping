@@ -3,7 +3,7 @@ Description=Java Shipping Service
 
 [Service]
 User=shipping
-ExecStart=/usr/bin/nohup java -jar ROOT-DIR/shipping/shipping.jar  
+ExecStart=/usr/bin/nohup java -jar /home/shipping/shipping/shipping.jar  
 Restart=always
 RestartSec=10
 StandardOutput=append:/var/log/robo-shop/shipping.log
