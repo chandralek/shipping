@@ -29,5 +29,8 @@ Directory -> `/home/shipping`
 
 ```
 # cp /home/shipping/shipping/shipping.service /etc/systemd/system/shipping.service
-# 
+# systemctl daemon-reload
+# systemctl start shipping 
+# systemctl enable shipping
 ```
+
