@@ -14,7 +14,7 @@ pipeline {
       steps {
         sh '''
           mvn package
-          cp target/*.jar shipping-service-${MAJOR_VERSION}-${BUILD_NUMBER}.jar
+          cp target/*dependencies.jar shipping-service-${MAJOR_VERSION}-${BUILD_NUMBER}.jar
         '''
       }
     }
