@@ -22,7 +22,7 @@ pipeline {
     stage('Upload To Nexus') {
       steps {
         sh '''
-          curl -f -v -u $NEXUS --upload-file shipping-service-${MAJOR_VERSION}-${BUILD_NUMBER}.jar https://nexus.devopsb46.online/repository/user-service/shipping-service-${MAJOR_VERSION}-${BUILD_NUMBER}.jar
+          curl -f -v -u $NEXUS --upload-file shipping-service-${MAJOR_VERSION}-${BUILD_NUMBER}.jar https://nexus.devopsb46.online/repository/shipping-service/shipping-service-${MAJOR_VERSION}-${BUILD_NUMBER}.jar
         '''
       }
     }
