@@ -19,7 +19,7 @@ pipeline {
       steps {
         sh '''
       cd target
-      curl -f -v -u $NEXUS --upload-file shipping-service-${MAJOR_VERSION}-${BUILD_NUMBER}.jar https://nexus.devops46.online/repository/shipping-service/shipping-service-${MAJOR_VERSION}-${BUILD_NUMBER}.jar
+      curl -f -v -u $NEXUS --upload-file target/shipping-service-${MAJOR_VERSION}-${BUILD_NUMBER}.jar https://nexus.devops46.online/repository/shipping-service/shipping-service-${MAJOR_VERSION}-${BUILD_NUMBER}.jar
 
       '''
       }
